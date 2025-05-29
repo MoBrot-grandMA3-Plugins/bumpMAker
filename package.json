@@ -9,6 +9,7 @@
     "access": "public"
   },
   "scripts": {
+    "tstl": "node ./tstl/fix-tstl.js",
     "build": "npx @ma3-pro-plugins/ma3-ts-plugin-builder",
     "dev": "npx @ma3-pro-plugins/ma3-ts-plugin-builder dev"
   },
